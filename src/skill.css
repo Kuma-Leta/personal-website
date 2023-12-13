@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skillList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  row-gap: 1rem;
+  width: 60%;
+  margin: auto;
+}
+.SkillMain h1 {
+  text-align: center;
+  color: #f02929;
+}
+.SkillMain {
+  background-color: #f9fbfd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 6rem;
+}
+.list {
+  margin-bottom: 20px;
+}
+
+.bar {
+  display: block;
+  background-color: black;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.html {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #df29f0; /* HTML color */
+  animation: html 3s ease forwards; /* Animation properties */
+}
+.react {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #f06529; /* HTML color */
+  animation: react 3s ease forwards; /* Animation properties */
+}
+.mongoDB {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #f06529; /* HTML color */
+  animation: mongoDB 3s ease forwards; /* Animation properties */
+}
+.css {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #f06529; /* HTML color */
+  animation: css 3s ease forwards; /* Animation properties */
+}
+
+.javascript {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #df29f0; /* HTML color */
+  animation: javascript 3s ease forwards; /* Animation properties */
+}
+.node {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #df29f0; /* HTML color */
+  animation: node 3s ease forwards; /* Animation properties */
+}
+.express {
+  width: 0; /* Set the initial width to 0 */
+  display: block;
+  height: 100%;
+  background-color: #e103f5; /* HTML color */
+  animation: express 3s ease forwards; /* Animation properties */
+}
+@media only screen and (max-width: 600px) {
+  .skillList {
+    row-gap: 0.1rem;
+  }
+}
+@keyframes html {
+  to {
+    width: 90%;
+  }
+}
+@keyframes css {
+  to {
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  to {
+    width: 80%;
+  }
+}
+@keyframes node {
+  to {
+    width: 55%;
+  }
+}
+@keyframes react {
+  to {
+    width: 70%;
+  }
+}
+@keyframes mongoDB {
+  to {
+    width: 50%;
+  }
+}
+@keyframes express {
+  to {
+    width: 65%;
+  }
+}
+.list {
+  color: rgb(253, 3, 20);
+  font-weight: 900;
+  opacity: 1;
+}

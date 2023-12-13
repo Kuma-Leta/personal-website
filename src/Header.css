@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.portifolio {
+  font-size: 24px;
+}
+.ifolio {
+  color: #61dafb;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: 800;
+}
+
+.dropdown-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+}
+
+.menu.active .dropdown-menu {
+  display: flex;
+}
+
+.menu.active a {
+  display: block;
+  font-weight: 700;
+}
+
+/* Media query for responsive design starting from 768px */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown-btn {
+    display: block;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+}
+
+/* @keyframes LinkHover {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+
+  100% {
+    background-color: green;
+  }
+} */
+/* .ifolio {
+  color: gold;
+} */

@@ -1,0 +1,101 @@
+h1 {
+  color: white;
+}
+.paragrph {
+  color: white;
+}
+.mainContainer {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  min-height: 90vh;
+  justify-content: center;
+  row-gap: 1rem;
+}
+.mainContainer p {
+  color: white;
+}
+.ContactMain {
+  /* background-color: #330749; */
+  background-image: url("../public/goodSW.jpg");
+
+  padding-top: 6rem;
+}
+.eachPlatform {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  color: white;
+  color: rgb(255, 0, 106);
+}
+.eachPlatform span p {
+  color: white;
+}
+.platforms {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.platformLinks a {
+  color: white;
+}
+.platformLinks {
+  display: flex;
+  column-gap: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    row-gap: 0.2rem;
+    width: 70%;
+  }
+  .platforms {
+    display: grid;
+    row-gap: 1rem;
+  }
+ 
+  .eachPlatform span p {
+    font-size: 16px;
+  }
+  .eachPlatform span {
+    font-size: 16px;
+  }
+
+  .eachPlatform span h3 {
+    font-size: 18px;
+  }
+  .platformLinks {
+    font-size: 1rem;
+    column-gap: 1rem;
+  }
+  .mainContainer p {
+    font-size: 16px;
+  }
+}
+/* @media only screen and (min-width: 600px) {
+  .mainContainer {
+    row-gap: 0.2rem;
+  }
+  .eachPlatform {
+    gap: 1rem;
+  }
+  .eachPlatform span p {
+    font-size: 16px;
+  }
+  .eachPlatform span {
+    font-size: 16px;
+  }
+
+  .eachPlatform span h3 {
+    font-size: 18px;
+  }
+  .platformLinks {
+    font-size: 1rem;
+    column-gap: 1rem;
+  }
+  .mainContainer p {
+    font-size: 16px;
+  }
+} */
+/* .contact {
+  background-color: #330749;
+} */
